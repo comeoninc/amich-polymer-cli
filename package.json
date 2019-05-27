@@ -1,0 +1,55 @@
+{
+  "name": "amich-polymer-cli",
+  "version": "1.0.0",
+  "description": "Material Components and Polymer Client applications builder.",
+  "main": "App.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comeoninc/amich-polymer-cli.git"
+  },
+  "keywords": [
+    "comeoninc",
+    "amich",
+    "polymer-cli"
+  ],
+  "author": "comeoninc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comeoninc/amich-polymer-cli/issues"
+  },
+  "homepage": "https://github.com/comeoninc/amich-polymer-cli#readme"
+},
+  "scripts": {
+    "lint": "polymer lint",
+    "tests": "polymer test",
+    "test:integration": "polymer build # test that psk builds without error with the CLI",
+    "build": "polymer build",
+    "start": "polymer serve",
+    "start:def": "polymer serve build/default",
+    "start:es5": "polymer serve build/es5-bundled",
+    "start:es6": "polymer serve build/es6-bundled",
+    "start:esm": "polymer serve build/esm-bundled"
+  },
+  "dependencies": {
+    "@polymer/app-layout": "latest",
+    "@polymer/app-route": "latest",
+    "@polymer/iron-flex-layout": "latest",
+    "@polymer/iron-iconset-svg": "latest",
+    "@polymer/iron-media-query": "latest",
+    "@polymer/iron-pages": "latest",
+    "@polymer/iron-selector": "latest",
+    "@polymer/paper-icon-button": "latest",
+    "@polymer/polymer": "latest",
+    "@webcomponents/webcomponentsjs": "latest"
+  },
+  "devDependencies": {
+    "polymer-cli": "latest",
+    "wct-browser-legacy": "latest"
+  },
+  "engines": {
+    "node": ">=8.0"
+  }
+}

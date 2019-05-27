@@ -1,0 +1,20 @@
+{
+  "name": "amich-polymer-cli",
+  "description": "Polymer Client and Material package applications builder",
+  "main": "App.js",
+  "authors": [
+    "comeoninc"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "amich"
+  ],
+  "homepage": "https://github.com/comeoninc/amich-polymer-cli",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "build"
+]
+}
